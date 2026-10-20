@@ -1,0 +1,931 @@
+# STUDIO SMART — COMPLETE MULTI-FUNCTIONAL WEB APP
+## Ultimate Master Prompt — Full Application, All Pages, Responsive Layouts, AI Learning, Books, E-Store and SSC College Finder
+
+You are a senior full-stack software engineer, React and TypeScript developer, product designer, AI integration engineer, educational technology specialist, and quality assurance tester.
+
+Your job is to BUILD the complete Studio Smart application as a real, multi-functional, responsive web application inside the supported app-building environment.
+
+This is a science exhibition project for students in Bangladesh, especially NCTB Classes 5–10.
+
+I do NOT want:
+- Only an HTML file.
+- Only a code snippet.
+- Only a landing page.
+- Only a GPA or result-upload page.
+- Only a visual mockup.
+- A website consisting of empty cards and non-functional buttons.
+- A single green screen with all content on it.
+
+I want the COMPLETE APPLICATION with separate pages, real navigation, useful interactions, working local functionality, appropriate AI integration, textbook sections, quizzes, explanations, shopping, study planning, and college recommendations.
+
+Build the application itself. Create the project files, run the application using the supported development environment, and display it in the available Preview. Do not merely describe what should be built.
+
+Do not publish or deploy the application. I will handle that myself if needed.
+
+==================================================
+PART 1 — BRAND IDENTITY AND REFERENCE DESIGN
+==================================================
+
+Application name: Studio Smart
+
+Use the supplied StudySmart / EduInnovators poster as a reference for branding, typography, graduation-cap motifs, book icons, team presentation, and green accents.
+
+Main tagline:
+"Learn Smarter. Progress Faster. Succeed Together."
+
+Bengali tagline:
+"স্মার্টভাবে শেখো। দ্রুত এগিয়ে চলো। একসঙ্গে সফল হও।"
+
+Brand colors:
+- Emerald green for the main brand identity.
+- Lime green for highlights, active controls, and selected elements.
+- White and off-white for readable content areas.
+- Light neutral gray for secondary surfaces.
+- Deep charcoal for selected dark sections.
+- Dark green for navigation, the logo area, and occasional feature panels.
+
+IMPORTANT DESIGN RULE:
+
+Do NOT make every screen entirely green.
+
+Use a premium balanced design:
+- Green navigation and brand accents.
+- White or light-neutral content surfaces for readability.
+- White cards on light backgrounds where appropriate.
+- Dark emerald sections for selected feature areas.
+- Lime-green buttons and status indicators.
+- Consistent typography, spacing, and rounded cards.
+
+The result must look like a real professional education platform, not a green poster stretched across the screen.
+
+Use an appropriate Bengali font and a clear English font. Ensure Bengali characters render correctly.
+
+Create a Studio Smart logo using a graduation cap and an open book. Use an image asset or icon-based implementation that fits the supplied reference.
+
+Provide light and dark themes if practical, but do not sacrifice core functionality for theme effects.
+
+==================================================
+PART 2 — REAL APPLICATION ARCHITECTURE
+==================================================
+
+Build a real multi-page web application using React and TypeScript, with reusable components and a proper project structure supported by the current environment.
+
+Use the actual Build-mode application workflow.
+
+Requirements:
+- Create working application files and components.
+- Run the app in the supported development environment.
+- Render the application in live Preview.
+- Inspect existing project files before making major changes.
+- Fix the existing project instead of replacing it with a single HTML file.
+- Keep the application modular and maintainable.
+- Do not create an Android APK or native Android application.
+- Do not deploy or publish automatically.
+- Do not require Firebase for basic exhibition functionality.
+- Use localStorage for appropriate non-sensitive preferences, notes, bookmarks, and planner data.
+- Use secure server-side Gemini integration wherever supported.
+- Never put secret API keys in frontend source code.
+- If an integration is unavailable, show a real, useful fallback rather than a fake success message.
+
+Build every major feature as an actual navigable page or working module.
+
+Do not stop after building the homepage.
+
+==================================================
+PART 3 — RESPONSIVE DESIGN FOR COMPUTER, TABLET, AND PHONE
+==================================================
+
+Responsive design is a mandatory core feature.
+
+The application must adapt its layout according to the available viewport width and input method.
+
+A. DESKTOP AND COMPUTER
+
+For wide computer screens:
+- Use a professional desktop dashboard.
+- Provide a collapsible or fixed left sidebar.
+- Use a top bar with page title, search, language selector, theme control, and profile.
+- Display content in multiple columns when appropriate.
+- Use wider textbook and product grids.
+- Use side-by-side GPA and upload panels when there is enough room.
+- Use readable content widths rather than stretching every section across the entire display.
+- Keep navigation and important actions easy to find.
+
+B. TABLET
+
+For medium-width screens:
+- Use a compact or collapsible sidebar.
+- Reduce the number of grid columns.
+- Reflow cards and forms naturally.
+- Use two-column layouts only when they fit comfortably.
+- Prevent overlapping text and controls.
+- Preserve readable spacing and touch-friendly controls.
+
+C. MOBILE PHONE
+
+For narrow screens:
+- Use a compact header.
+- Replace the desktop sidebar with a mobile menu or bottom navigation.
+- Use one-column forms when necessary.
+- Stack GPA input and optional image upload vertically.
+- Show books and products in compact responsive cards.
+- Use a readable mobile chat interface.
+- Ensure buttons are large enough to tap.
+- Prevent horizontal scrolling.
+- Keep the most important actions accessible.
+- Use mobile-friendly dialogs and form controls.
+
+D. IMPLEMENTATION
+
+Use responsive CSS, Flexbox, CSS Grid, and suitable breakpoints.
+
+Do not simply shrink the desktop layout to fit a phone.
+
+Create purposefully adapted layouts for:
+- Desktop.
+- Tablet.
+- Mobile.
+
+Test representative narrow, medium, and wide viewport widths in the available Preview environment.
+
+Make the app feel like the appropriate interface for the device, while preserving the same brand and functionality.
+
+==================================================
+PART 4 — COMPLETE NAVIGATION AND PAGE STRUCTURE
+==================================================
+
+Create a functional navigation system containing all these sections:
+
+1. Home Dashboard.
+2. Smart Books Library.
+3. Book Reader.
+4. AI Tutor.
+5. AI Explanation and Learning Assistant.
+6. Study Planner.
+7. SSC GPA and College Finder.
+8. SSC Result Scanner.
+9. Subject-wise Grade Calculator.
+10. Student E-Store.
+11. MCQ Quizzes.
+12. Practice Tests.
+13. Notes.
+14. Bookmarks.
+15. Vocabulary Learning.
+16. Study Progress.
+17. Exam Countdown.
+18. Student Profile.
+19. Settings.
+20. About and Team.
+
+Use an appropriate sidebar on desktop and mobile navigation on smaller devices.
+
+Add a global search where practical.
+
+Every navigation item must open its corresponding functional page.
+
+Do not create a navigation item that leads to an empty page or a non-functional placeholder.
+
+If a page is not yet implemented, implement it before declaring the application complete.
+
+==================================================
+PART 5 — HOME DASHBOARD
+==================================================
+
+Build a complete, attractive student dashboard.
+
+Include:
+- Welcome message.
+- Student name.
+- Selected class and medium.
+- Search bar.
+- Quick-access feature cards.
+- Continue Reading.
+- Recently opened books.
+- Today's study schedule.
+- Upcoming exams.
+- Study progress chart.
+- Quiz activity.
+- Saved notes.
+- Bookmarks.
+- AI Tutor shortcut.
+- College Finder shortcut.
+- E-Store recommendations.
+- Recommended learning activities.
+
+Dashboard cards must navigate to their real destinations.
+
+Display personalized content using the student's profile where available.
+
+Provide useful empty states for a new user and sample data for exhibition demonstration.
+
+==================================================
+PART 6 — STUDENT PROFILE AND PERSONALIZATION
+==================================================
+
+Create an editable profile with:
+- Name.
+- Optional profile image.
+- Class 5–10.
+- Academic year.
+- Bangla or English medium.
+- Favourite subjects.
+- Weak subjects.
+- Available study hours.
+- Learning preferences.
+
+Save suitable settings locally.
+
+Do not require login for basic app use.
+
+Use the profile to personalize:
+- Textbook filters.
+- AI Tutor context.
+- Quizzes.
+- Study plans.
+- Subject recommendations.
+- Dashboard content.
+
+Provide a reset option for the exhibition demo.
+
+Do not store passwords, secret API keys, or unnecessary sensitive documents.
+
+==================================================
+PART 7 — COMPLETE NCTB SMART BOOKS LIBRARY
+==================================================
+
+Official NCTB reference:
+https://nctb.gov.bd/
+
+Build a dedicated Books Library page for Classes 5, 6, 7, 8, 9, and 10.
+
+The interface must support a full catalogue of applicable official textbooks, rather than showing only a few sample books.
+
+Include:
+- Class filter.
+- Subject filter.
+- Medium filter.
+- Academic-year filter.
+- Search.
+- Book cover.
+- Book title.
+- Subject.
+- Class.
+- Edition or academic year when verified.
+- Source information.
+- Read Online.
+- Open Official PDF.
+- Bookmark.
+- Recently Opened.
+- Continue Reading.
+- Chapter list when reliable chapter data is available.
+
+BOOK READER:
+
+Create a dedicated reading interface.
+
+When a permitted, verified PDF is available:
+- Open it in an appropriate in-app PDF viewer when supported.
+- Provide page navigation and zoom controls when available.
+- Provide a back-to-library action.
+- Save reading progress when technically feasible.
+
+When a PDF is unavailable:
+- Show a verified official NCTB page link.
+- Clearly state that the direct PDF is unavailable or unverified.
+
+DATA REQUIREMENTS:
+
+- Use verified NCTB textbook metadata.
+- Never invent textbook titles, editions, PDF links, or official status.
+- Keep different academic-year editions separate.
+- Never claim that the entire catalogue is complete unless it has actually been verified.
+- Distinguish sample records from verified records.
+- Do not redistribute copyrighted content without permission.
+- Make the catalogue easy to update.
+
+==================================================
+PART 8 — GEMINI AI TUTOR
+==================================================
+
+Create a dedicated, fully interactive AI Tutor page.
+
+Use Gemini through secure server-side integration where supported.
+
+Features:
+- Bengali chat.
+- English chat.
+- Class-aware explanations.
+- Subject selection.
+- Step-by-step mathematics.
+- Science explanations.
+- Bengali grammar.
+- English grammar.
+- Chapter summaries.
+- Homework guidance.
+- Revision notes.
+- MCQ generation.
+- Practice questions.
+- Follow-up questions.
+- Suggested prompts.
+- Clear chat.
+- Loading indicators.
+- Error handling.
+- Retry action.
+
+The chat interface should include:
+- Message history during the session.
+- Student and AI message styles.
+- Input field.
+- Send button.
+- Enter-to-send where appropriate.
+- Scrollable conversation.
+- Helpful empty state.
+
+AI answers must be understandable to school students.
+
+When reliable textbook context is available, use it and identify the source.
+
+Never fabricate a source citation.
+
+If Gemini is not configured, show a clear message explaining that live AI requires the relevant configuration.
+
+Do not fake a live AI response.
+
+==================================================
+PART 9 — AI EXPLANATION AND LEARNING ASSISTANT
+==================================================
+
+Provide a separate learning interface or clearly organized AI Tutor tools for:
+
+- Explain a topic simply.
+- Explain step by step.
+- Summarize a chapter.
+- Explain a mathematical solution.
+- Generate examples.
+- Create revision notes.
+- Generate MCQs.
+- Explain why an answer is correct.
+- Compare two concepts.
+- Translate difficult terminology.
+- Explain vocabulary.
+- Create a revision plan.
+
+Allow the student to select:
+- Class.
+- Subject.
+- Topic.
+- Preferred language.
+- Explanation style.
+
+Use Gemini when available.
+
+If no live AI integration exists, clearly label any prewritten demonstration content as sample content.
+
+==================================================
+PART 10 — SSC GPA AND RESULT INPUT
+==================================================
+
+This feature must have three alternative input methods.
+
+METHOD A: Manual GPA entry.
+METHOD B: Optional result-sheet photo or screenshot.
+METHOD C: Subject-wise grade entry.
+
+The image is optional.
+
+A student who already knows their GPA must be able to continue without uploading a result card.
+
+------------------------------------------
+10A. MANUAL GPA
+------------------------------------------
+
+Display a prominent GPA input box.
+
+Bengali label:
+"আপনার SSC GPA লিখুন"
+
+Accept values from 1.00 to 5.00.
+
+Validate values and show useful Bengali error messages.
+
+Additional fields:
+- SSC examination year.
+- Education board.
+- Group: Science, Business Studies, or Humanities.
+- Preferred district.
+- Government or private institution preference.
+- Optional budget.
+- Optional distance preference.
+
+Do not make image upload mandatory.
+
+------------------------------------------
+10B. OPTIONAL RESULT-SHEET IMAGE
+------------------------------------------
+
+Place an optional image-upload area beside the GPA field on wide screens and below it on narrow screens.
+
+Bengali heading:
+"রেজাল্ট শিটের ছবি বা স্ক্রিনশট আপলোড করুন (ঐচ্ছিক)"
+
+Helper text:
+"ছবি দিলে AI আপনার রেজাল্টের তথ্য পড়ার চেষ্টা করবে। পরিষ্কার ছবি দিলে সুবিধা হবে। ছবি দেওয়া বাধ্যতামূলক নয়।"
+
+Provide:
+- File picker.
+- Image preview.
+- Replace image.
+- Remove image.
+- Processing status.
+- Error handling.
+- Manual fallback.
+
+------------------------------------------
+10C. RESULT-CARD IMAGE RECOGNITION
+------------------------------------------
+
+When Gemini image understanding is available, process the image through a secure server-side integration.
+
+First assess whether the image plausibly contains an academic result card, marksheet, or SSC result screenshot.
+
+If it does not appear to be a result card, display:
+
+"It's not a result card."
+
+Bengali message:
+"এটি রেজাল্ট কার্ড বলে মনে হচ্ছে না। অনুগ্রহ করে রেজাল্ট শিটের পরিষ্কার ছবি দিন অথবা GPA নিজে লিখুন।"
+
+If uncertain, ask for a clearer image or allow manual entry.
+
+If it appears to contain a result card:
+- Show a dark emerald scanning panel.
+- Add a subtle green tint.
+- Animate a glowing green line from top to bottom, then back to the top.
+- Display a scanning status in Bengali.
+- Show clear loading, success, warning, and error states.
+- Extract readable GPA, examination year, board, group, and subject grades when possible.
+- Show extracted values in editable fields.
+- Ask the student to confirm the values.
+
+Do not claim the document is authentic or officially verified merely because it looks like a result card.
+
+Do not automatically call an unfamiliar result-card design fake.
+
+The scan animation is a visual processing effect, not proof of authenticity.
+
+If Gemini is unavailable, show an honest error and allow manual entry.
+
+Avoid unnecessary retention of uploaded images.
+
+------------------------------------------
+10D. SUBJECT-WISE GRADES
+------------------------------------------
+
+Provide an optional subject-wise grade-entry form.
+
+Each row must include:
+- Subject name.
+- Grade selector.
+- Optional additional-subject designation.
+
+Allow rows to be added or removed.
+
+Use the applicable Bangladesh grading rules when calculating GPA.
+
+Implement additional-subject rules correctly before claiming an official calculation.
+
+If the required grading rules or subject configuration are uncertain, label the result as an estimate.
+
+Do not invent missing subject grades.
+
+==================================================
+PART 11 — SSC COLLEGE FINDER AND AI RECOMMENDATIONS
+==================================================
+
+Create a separate College Finder page.
+
+Use the submitted GPA or confirmed scanned information.
+
+Inputs:
+- SSC GPA.
+- Examination year.
+- Education board.
+- Group.
+- Preferred district.
+- Government/private preference.
+- Optional budget.
+- Optional distance.
+
+Show recommended colleges and suitable higher-secondary institutions.
+
+For every recommendation, display:
+- Institution name.
+- Location.
+- Institution type.
+- Available group or programme.
+- Relevant admission criteria.
+- Official website.
+- Official admission notice.
+- Source and data year.
+- Why the institution matches.
+- Any missing information.
+
+Use Gemini to explain the recommendation in clear Bengali using retrieved institution information.
+
+The explanation must be specific to the student's preferences and the actual data.
+
+Example:
+"এই প্রতিষ্ঠানটি আপনার পছন্দের জেলা ও বিভাগের সঙ্গে মেলে। প্রদর্শিত ভর্তি-যোগ্যতার তথ্য আপনার দেওয়া GPA-এর সঙ্গে তুলনা করা হয়েছে। আবেদন করার আগে বর্তমান শিক্ষাবর্ষের অফিসিয়াল বিজ্ঞপ্তি যাচাই করুন।"
+
+Do not use this explanation unless the data actually supports the recommendation.
+
+Use these categories:
+- Meets verified published criteria.
+- Further eligibility checks required.
+- Insufficient verified information.
+
+Support the five most recent admission cycles for which reliable information exists.
+
+Show the actual available years. Do not invent missing years or historical cutoffs.
+
+Never fabricate fees, seats, admission thresholds, college details, or guarantees of admission.
+
+Do not recommend universities as immediately eligible destinations for SSC graduates who have not met the required academic stage. Explain future university pathways separately.
+
+When verified data is unavailable, show the limitation and relevant official sources.
+
+==================================================
+PART 12 — STUDY PLANNER
+==================================================
+
+Create a dedicated Study Planner page.
+
+Inputs:
+- Class.
+- Subjects.
+- Available study hours.
+- School/coaching schedule.
+- Weak subjects.
+- Strong subjects.
+- Exam dates.
+- Preferred breaks.
+
+Features:
+- Daily timetable.
+- Weekly timetable.
+- Personalized routine generation.
+- Add task.
+- Edit task.
+- Delete task.
+- Mark task complete.
+- Reschedule unfinished tasks.
+- Progress tracking.
+- Revision reminders within the app.
+- Subject-based time allocation.
+- Study breaks.
+
+Prioritize weak subjects while maintaining a realistic schedule.
+
+Save planner data locally.
+
+Do not require Firebase for the basic planner.
+
+==================================================
+PART 13 — MCQ QUIZZES AND PRACTICE TESTS
+==================================================
+
+Create a dedicated Quizzes section.
+
+Provide:
+- Class selection.
+- Subject selection.
+- Chapter or topic selection.
+- Difficulty selection when appropriate.
+- Multiple-choice questions.
+- Four answer choices where suitable.
+- Answer selection.
+- Submit action.
+- Correct/incorrect feedback.
+- Explanation for each answer.
+- Score summary.
+- Retry quiz.
+- Review previous answers.
+- Practice history where supported.
+
+Provide AI-generated practice questions when Gemini is configured.
+
+Label AI-generated content as practice material, not as an official examination paper.
+
+Provide sample questions for the exhibition demo when live AI is unavailable, clearly labelled as samples.
+
+The quiz must be interactive, not just a static list of questions.
+
+==================================================
+PART 14 — STUDENT E-STORE
+==================================================
+
+The E-Store is a required, separate section of the application.
+
+Do not omit it.
+
+Build a visually rich shopping hub for educational products.
+
+Categories:
+- Textbooks.
+- Guidebooks.
+- Geometry boxes.
+- Rulers and scales.
+- Pens.
+- Pencils.
+- Notebooks.
+- Calculators.
+- School bags.
+- Art and stationery supplies.
+- Other student essentials.
+
+Include Rokomari:
+https://www.rokomari.com/
+
+Product cards should contain:
+- Product image.
+- Product name.
+- Category.
+- Store name.
+- Verified price when available.
+- Verified availability when available.
+- View Product button.
+- Visit Store button where appropriate.
+
+When a user clicks a product image or button, open the corresponding verified product or store page.
+
+If a product-specific URL is unavailable, use a relevant verified store or category page instead of inventing a link.
+
+Do not fabricate prices, discounts, reviews, ratings, or stock availability.
+
+Use actual product images when available. Otherwise, use a suitable category illustration or placeholder.
+
+Clearly disclose affiliate or sponsored links where applicable.
+
+Provide category filters, product search, and responsive product cards.
+
+Make the shopping interface usable even if live store data is unavailable.
+
+If live product data cannot be fetched, clearly label the products as demonstration samples rather than pretending they are verified live listings.
+
+==================================================
+PART 15 — NOTES, BOOKMARKS, AND VOCABULARY
+==================================================
+
+Create separate functional learning tools.
+
+NOTES:
+- Create note.
+- Edit note.
+- Delete note.
+- Add title.
+- Add subject.
+- Search notes.
+- Save notes locally.
+
+BOOKMARKS:
+- Bookmark books and learning items.
+- Remove bookmarks.
+- Display saved items.
+- Navigate to the original item.
+
+VOCABULARY:
+- English word.
+- Bengali meaning.
+- Example sentence.
+- Save favourite words.
+- Search saved vocabulary.
+- Practice mode.
+
+Do not create empty pages for these features.
+
+==================================================
+PART 16 — STUDY PROGRESS AND EXAM COUNTDOWN
+==================================================
+
+Build a progress page containing:
+- Completed study tasks.
+- Weekly study activity.
+- Quiz scores.
+- Subject-wise progress where supported.
+- Study streak.
+- Revision progress.
+- Upcoming examination dates.
+- Exam countdown.
+
+Allow the student to add and edit exam dates.
+
+Use readable charts and cards.
+
+Clearly distinguish actual user activity from sample demonstration data.
+
+==================================================
+PART 17 — FOOTER AND TEAM DESIGN
+==================================================
+
+Match the supplied StudySmart / EduInnovators poster.
+
+Use a dark emerald footer with green accents, book decoration, divider lines, and responsive team cards.
+
+Brand:
+Studio Smart
+
+Tagline:
+"Learn Smarter. Progress Faster. Succeed Together."
+
+Description:
+"Studio Smart is an all-in-one learning app designed for students to make studying easier, faster and more effective."
+
+Feature labels:
+- AI Chat.
+- eBook Library.
+- Animation Videos.
+- Quizzes.
+- Note Sharing.
+- Study Progress.
+- Book Download.
+
+Only imply functionality that has actually been implemented.
+
+Team heading:
+"Our Team"
+
+Team name:
+"EduInnovators"
+
+Display these exact team members:
+
+1. CEO — Mominul Islam Taj
+2. UI Designer — Omio
+3. Marketing Manager — AS Morsalin
+4. AI & ML Specialist — Arnob
+5. App Developer — Robayet
+
+Use suitable icons for the five roles and generic profile silhouettes unless authorized photographs are supplied.
+
+Do not invent extra members, contact details, biographies, or social profiles.
+
+Footer navigation:
+- Home.
+- Books Library.
+- AI Tutor.
+- Study Planner.
+- College Finder.
+- E-Store.
+- Contact.
+- Privacy Policy.
+- Terms of Use.
+
+Only add real contact or social links when provided.
+
+Copyright:
+"© Studio Smart | Team EduInnovators. All rights reserved."
+
+Make the footer attractive on desktop and mobile.
+
+==================================================
+PART 18 — SCIENCE EXHIBITION MODE
+==================================================
+
+This app is primarily intended for a science exhibition demonstration.
+
+Provide:
+- A polished starting screen.
+- Working dashboard.
+- Functional page navigation.
+- Sample student profile.
+- Sample study routine.
+- Sample quiz.
+- Sample notes.
+- Example textbook records clearly marked as samples when unverified.
+- Example college recommendation clearly marked as sample when not verified.
+- Result-scanning animation.
+- Optional sample result demonstration.
+- Reset Demo button.
+
+Allow the main interface and local demonstration features to work without login.
+
+Do not require publishing, hosting, a custom domain, or QR generation for the demo.
+
+Do not require real student documents for demonstration.
+
+When a live API is unavailable, show a sample demonstration only if it is clearly labelled as sample content.
+
+Never mix fictional demonstration records with verified real data without disclosure.
+
+==================================================
+PART 19 — SETTINGS AND ACCESSIBILITY
+==================================================
+
+Include:
+- Language selection.
+- Light/dark appearance setting if supported.
+- Profile settings.
+- Data reset option.
+- Demo reset.
+- Privacy information.
+- About section.
+
+Use accessible contrast and keyboard navigation.
+
+Respect reduced-motion preferences.
+
+Make Bengali and English text fit without clipping.
+
+Ensure buttons, dialogs, forms, and navigation remain usable at different screen sizes.
+
+==================================================
+PART 20 — FUNCTIONALITY AND DATA INTEGRITY
+==================================================
+
+The application must be multi-functional.
+
+Every main section must be implemented and navigable.
+
+Do not replace missing functionality with a decorative card.
+
+Do not use fake success states.
+
+Do not fabricate official textbook records, admission criteria, prices, URLs, or AI results.
+
+Use verified external data where available.
+
+If live data cannot be obtained:
+- Clearly identify the limitation.
+- Provide a useful fallback.
+- Label sample data.
+- Keep the interface usable.
+
+Use localStorage for appropriate non-sensitive local data.
+
+Use secure server-side integration for Gemini where supported.
+
+Handle network errors and unavailable services gracefully.
+
+Do not store secrets in frontend code.
+
+==================================================
+PART 21 — FINAL BUILD AND QUALITY ASSURANCE
+==================================================
+
+Build the complete app now.
+
+First inspect the current project and preserve useful existing work.
+
+Then:
+1. Implement the full multi-page React and TypeScript application.
+2. Implement responsive desktop, tablet, and mobile layouts.
+3. Build the dashboard.
+4. Build the complete navigation.
+5. Build the Books Library and Reader.
+6. Build the AI Tutor and explanation tools.
+7. Build the Study Planner.
+8. Build SSC GPA entry, optional image upload, and subject-wise grade entry.
+9. Build the result recognition flow and green scan animation.
+10. Build the College Finder and AI explanations.
+11. Build the E-Store.
+12. Build quizzes, notes, bookmarks, vocabulary, progress, and countdown.
+13. Build the complete EduInnovators footer.
+14. Implement the exhibition demo mode.
+15. Run available build and type checks.
+16. Fix errors that prevent the application from running.
+17. Test the main interactions in Preview.
+
+Verify at least:
+- Dashboard navigation.
+- Textbook search and filters.
+- Reader and official links.
+- AI Tutor input and error handling.
+- AI explanation interface.
+- Study task creation, completion, and deletion.
+- Manual GPA validation.
+- Optional image preview and removal.
+- Image-recognition fallback.
+- Scanning animation.
+- Subject-wise grade input.
+- College recommendation explanation.
+- E-Store search, filters, and links.
+- Interactive quizzes and explanations.
+- Notes and bookmarks.
+- Team footer.
+- Desktop layout.
+- Tablet layout.
+- Mobile layout.
+
+Do not publish or deploy automatically.
+
+Do not say the application is complete merely because the homepage renders.
+
+If a feature cannot be completed due to a genuine environment limitation, explain the exact limitation and implement the remaining features.
+
+FINAL REQUIREMENT:
+
+I want to see the complete Studio Smart application in the supported live Preview. I do not want only HTML, a code snippet, a static landing page, or a result-upload-only application.
+
+Build the actual multi-functional web app with all pages, all requested features, responsive layouts for computer, tablet, and phone, and the supplied Studio Smart / EduInnovators identity.
+
+Do not publish or deploy the project.

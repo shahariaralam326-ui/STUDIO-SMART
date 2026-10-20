@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #021a14;
+    color: #ecfdf5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+@keyframes scan-laser {
+  0% {
+    top: 0%;
+    opacity: 0.8;
+  }
+  50% {
+    top: 96%;
+    opacity: 1;
+  }
+  100% {
+    top: 0%;
+    opacity: 0.8;
+  }
+}
+
+.animate-scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #34d399, #10b981, #34d399, transparent);
+  box-shadow: 0 0 15px 3px rgba(16, 185, 129, 0.7), 0 0 30px 6px rgba(52, 211, 153, 0.4);
+  animation: scan-laser 2.4s ease-in-out infinite;
+  z-index: 20;
+}
+
+.scan-overlay-glow {
+  background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, rgba(16, 185, 129, 0.18) 50%, rgba(16, 185, 129, 0.08) 100%);
+}

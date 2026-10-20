@@ -1,0 +1,6 @@
+{
+  "name": "Studio Smart",
+  "description": "Student-friendly SSC GPA calculator, marksheet scanner, and college recommendation wizard for Bangladesh science exhibitions by EduInnovators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
